@@ -1,0 +1,17 @@
+@import "@assets/index.scss";
+
+main {
+  margin-top: 60px;
+
+  max-width: 100vw;
+  width: 100%;
+  height: auto;
+
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+
+    padding-top: 30px;
+  }
+}

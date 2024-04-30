@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+// Background color
+// Цвет основного бэкграунда страницы
+$background: #222831;
+$text: #eee;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Rubik";
+
+  color: $text;
+}
+
+body {
+  background-color: $background;
+}
+
+.container {
+  padding: 40px;
+  max-width: 1366px;
+
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+
+.swiper-pagination {
+  margin-top: 20px !important;
+}

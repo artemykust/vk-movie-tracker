@@ -1,0 +1,30 @@
+.movie_card {
+  height: 400px;
+  width: 200px;
+
+  .movie_poster {
+    width: 200px;
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  .movie_title {
+    // font-size: 16px;
+    font-size: calc(16px + (2 + 2 * 0.7) * (100vw - 320px) / 1336);
+
+    font-weight: 700;
+    text-wrap: balance;
+    word-wrap: normal;
+  }
+}
+
+@media (max-width: 640px) {
+  .movie_card {
+    height: fit-content;
+    width: 150px;
+
+    .movie_poster {
+      width: 150px;
+    }
+  }
+}

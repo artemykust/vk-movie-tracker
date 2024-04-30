@@ -1,0 +1,35 @@
+.carousel {
+  height: 400px;
+  width: 100%;
+
+  .carousel_title {
+    // font-size: 32px;
+    font-size: calc(20px + (5 + 5 * 0.7) * (100vw - 320px) / 1336);
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+  }
+
+  .carousel_image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    height: 200px;
+    .carousel_image {
+      height: 150px;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .carousel {
+    height: 250px;
+    .carousel_image {
+      height: 150px;
+    }
+  }
+}
