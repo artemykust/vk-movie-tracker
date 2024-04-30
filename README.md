@@ -19,3 +19,4 @@
      $ npm i && npm run dev
 #  Деплой
 Vercel: https://vk-movie-tracker.vercel.app 
+(upd.: Требуется VPN для корректных запросов к TheMovieDB)
